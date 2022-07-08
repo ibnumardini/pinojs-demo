@@ -3,8 +3,6 @@ import ip from "ip";
 
 const { parsed = {} } = dotenv.config();
 
-console.log(ip);
-
 export default {
     environment: parsed.NODE_ENV,
     port: parsed.PORT,
